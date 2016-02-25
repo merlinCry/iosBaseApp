@@ -1,0 +1,26 @@
+//
+//  ShopRefactor.pch
+//  ShopRefactor
+//
+//  Created by song on 16/2/22.
+//  Copyright © 2016年 song. All rights reserved.
+//
+
+#ifndef ShopRefactor_pch
+#define ShopRefactor_pch
+
+#ifdef __OBJC__
+
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "interfaceDefine.h"
+    #import "ToolsDefine.h"
+    #import "UIImage+COLOR.h"
+    #import "UIViewExt.h"
+    #import "BaseViewController.h"
+    #import "CTXTools.h"
+    #import "User.h"
+
+#endif
+
+#endif /* ShopRefactor_pch */
