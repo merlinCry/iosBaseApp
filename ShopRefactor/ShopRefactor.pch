@@ -15,11 +15,6 @@
     #import <UIKit/UIKit.h>
     #import "interfaceDefine.h"
     #import "ToolsDefine.h"
-    #import "UIImage+COLOR.h"
-    #import "UIViewExt.h"
-    #import "BaseViewController.h"
-    #import "CTXTools.h"
-    #import "User.h"
 
 #endif
 

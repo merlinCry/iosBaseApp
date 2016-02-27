@@ -20,6 +20,9 @@
     UITapGestureRecognizer *tapges = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(action:)];
     [self.view addGestureRecognizer:tapges];
     
+    
+    
+    
 }
 
 

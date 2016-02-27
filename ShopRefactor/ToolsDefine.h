@@ -8,9 +8,18 @@
 
 #ifndef ToolsDefine_h
 #define ToolsDefine_h
+#pragma mark =========================== baseImport ========================================
 
 
-#pragma mark =================================== toolDefine ========================================
+#import "UIImage+COLOR.h"
+#import "UIViewExt.h"
+#import "BaseViewController.h"
+#import "CTXTools.h"
+#import "User.h"
+#import "ZTNetCenter.h"
+
+
+#pragma mark =================================== toolDefine ===============================
 
 
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)

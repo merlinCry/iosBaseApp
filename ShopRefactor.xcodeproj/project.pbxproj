@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */; };
 		C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB41C7BFD35001927F8 /* HomePageController.m */; };
 		C7C26CB81C7BFD59001927F8 /* PartTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB71C7BFD59001927F8 /* PartTimeController.m */; };
 		C7C26CBB1C7BFD6E001927F8 /* DiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CBA1C7BFD6E001927F8 /* DiscoveryController.m */; };
@@ -35,6 +36,8 @@
 		355867340B599DBF80CAD44E /* libPods-ShopRefactor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopRefactor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE885E53F9A8C498133BF5 /* Pods-ShopRefactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopRefactor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopRefactor/Pods-ShopRefactor.release.xcconfig"; sourceTree = "<group>"; };
 		72712EE8896EF7874470693C /* Pods-ShopRefactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopRefactor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopRefactor/Pods-ShopRefactor.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNetCenter.h; sourceTree = "<group>"; };
+		C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNetCenter.m; sourceTree = "<group>"; };
 		C7C26CB31C7BFD35001927F8 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
 		C7C26CB41C7BFD35001927F8 /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
 		C7C26CB61C7BFD59001927F8 /* PartTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartTimeController.h; sourceTree = "<group>"; };
@@ -58,8 +61,8 @@
 		C7C26CD71C7C106D001927F8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		C7C26CD81C7C106D001927F8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C7C26CDB1C7C3DCE001927F8 /* newsTipImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newsTipImage@2x.png"; sourceTree = "<group>"; };
-		C7C26CDD1C7C51E3001927F8 /* CTXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTXTools.h; path = ../../custom/CTXTools.h; sourceTree = "<group>"; };
-		C7C26CDE1C7C51E3001927F8 /* CTXTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTXTools.m; path = ../../custom/CTXTools.m; sourceTree = "<group>"; };
+		C7C26CDD1C7C51E3001927F8 /* CTXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTXTools.h; sourceTree = "<group>"; };
+		C7C26CDE1C7C51E3001927F8 /* CTXTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTXTools.m; sourceTree = "<group>"; };
 		C7C26CE11C7C5D04001927F8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		C7C26CE21C7C5D04001927F8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		C7C26CE41C7C627C001927F8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -231,14 +234,14 @@
 		C7C26CE01C7C5CA7001927F8 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				C7C26CDD1C7C51E3001927F8 /* CTXTools.h */,
-				C7C26CDE1C7C51E3001927F8 /* CTXTools.m */,
 				C7C26CE11C7C5D04001927F8 /* User.h */,
 				C7C26CE21C7C5D04001927F8 /* User.m */,
 				C7C26CE41C7C627C001927F8 /* LoginViewController.h */,
 				C7C26CE51C7C627C001927F8 /* LoginViewController.m */,
 				C7C26CE71C7C6407001927F8 /* GuidePageController.h */,
 				C7C26CE81C7C6407001927F8 /* GuidePageController.m */,
+				C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */,
+				C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -292,6 +295,8 @@
 		C7FA64E41C7B0A100095ED3B /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				C7C26CDD1C7C51E3001927F8 /* CTXTools.h */,
+				C7C26CDE1C7C51E3001927F8 /* CTXTools.m */,
 				C7FA64E51C7B0AB10095ED3B /* UIViewExt.h */,
 				C7FA64E61C7B0AB10095ED3B /* UIViewExt.m */,
 				C7C26CC81C7BFF78001927F8 /* MainViewController.h */,
@@ -446,6 +451,7 @@
 				C7C26CE91C7C6407001927F8 /* GuidePageController.m in Sources */,
 				C7FA64D21C7AFF400095ED3B /* AppDelegate.m in Sources */,
 				C7C26CD31C7C0CD0001927F8 /* UIImage+COLOR.m in Sources */,
+				C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */,
 				C7FA64CF1C7AFF400095ED3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

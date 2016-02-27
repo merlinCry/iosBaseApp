@@ -7,6 +7,8 @@
 //
 
 #import "TestVCViewController.h"
+#import "AFNetWorking.h"
+#import "AFURLRequestSerialization.h"
 
 @interface TestVCViewController ()
 
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    NSString *ipAddress = @"http://m.8dol.com/api/store/list";
+    [ZTNetCenter GETJSON:ipAddress parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
