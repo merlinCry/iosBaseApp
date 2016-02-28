@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
+//结果block
+//typedef void (^ResponseHandler)(id _Nullable responseObject,NSError * _Nonnull error);
+
 @interface ZTNetCenter : NSObject
 
 /**
@@ -21,16 +24,16 @@
 /**
  *GET数据请求
  */
-+(void)GETJSON:(nullable NSString *)url parameters:(nullable id)parameters
-   success:(nullable void (^)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
-       failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error))failure;
++(void)GETJSON:(nullable NSString *)url
+    parameters:(nullable id)parameters
+   responseHandler:(nullable void (^)(id _Nullable responseObject,NSError * _Nullable error))handler;
 
 /**
  *POST数据请求
  */
-+(void)POSTJSON:(nullable NSString *)url parameters:(nullable id)parameters
-       success:(nullable void (^)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
-       failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error))failure;
++(void)POSTJSON:(nullable NSString *)url
+     parameters:(nullable id)parameters
+       responseHandler:(nullable void (^)(id _Nullable responseObject,NSError * _Nullable error))handler;
 
 
 

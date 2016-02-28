@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7ACAA534CBC48B75445032DE'
+               BlueprintIdentifier = '12AB2408B444EB2E830898FF'
                BlueprintName = 'FMDB'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFMDB.a'>

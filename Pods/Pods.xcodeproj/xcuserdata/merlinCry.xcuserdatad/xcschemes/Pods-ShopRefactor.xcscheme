@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D2020B32BEC9EF73ABD51BD7'
+               BlueprintIdentifier = 'E257FF2B181663A51179231C'
                BlueprintName = 'Pods-ShopRefactor'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ShopRefactor.a'>
