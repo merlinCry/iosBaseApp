@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E911C856EBF00514AC7 /* NSObject+Associate.m */; };
+		C7123E981C85A54C00514AC7 /* UIViewController+track.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E971C85A54C00514AC7 /* UIViewController+track.m */; };
 		C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */; };
 		C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB41C7BFD35001927F8 /* HomePageController.m */; };
 		C7C26CB81C7BFD59001927F8 /* PartTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB71C7BFD59001927F8 /* PartTimeController.m */; };
@@ -39,6 +40,8 @@
 		72712EE8896EF7874470693C /* Pods-ShopRefactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopRefactor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopRefactor/Pods-ShopRefactor.debug.xcconfig"; sourceTree = "<group>"; };
 		C7123E901C856EBF00514AC7 /* NSObject+Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Associate.h"; sourceTree = "<group>"; };
 		C7123E911C856EBF00514AC7 /* NSObject+Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associate.m"; sourceTree = "<group>"; };
+		C7123E961C85A54C00514AC7 /* UIViewController+track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+track.h"; sourceTree = "<group>"; };
+		C7123E971C85A54C00514AC7 /* UIViewController+track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+track.m"; sourceTree = "<group>"; };
 		C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNetCenter.h; sourceTree = "<group>"; };
 		C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNetCenter.m; sourceTree = "<group>"; };
 		C7C26CB31C7BFD35001927F8 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
@@ -314,6 +317,8 @@
 				C7C26CD81C7C106D001927F8 /* BaseViewController.m */,
 				C7123E901C856EBF00514AC7 /* NSObject+Associate.h */,
 				C7123E911C856EBF00514AC7 /* NSObject+Associate.m */,
+				C7123E961C85A54C00514AC7 /* UIViewController+track.h */,
+				C7123E971C85A54C00514AC7 /* UIViewController+track.m */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7123E981C85A54C00514AC7 /* UIViewController+track.m in Sources */,
 				C7C26CB81C7BFD59001927F8 /* PartTimeController.m in Sources */,
 				C7C26CD91C7C106D001927F8 /* BaseViewController.m in Sources */,
 				C7C26CD01C7C0896001927F8 /* ZTNavigationController.m in Sources */,

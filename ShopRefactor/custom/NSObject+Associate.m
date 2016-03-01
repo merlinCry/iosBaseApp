@@ -7,7 +7,6 @@
 //
 
 #import "NSObject+Associate.h"
-#import <objc/runtime.h>
 @implementation NSObject (Associate)
 
 -(void)associateValue:(id)value withKey:(void *)key
