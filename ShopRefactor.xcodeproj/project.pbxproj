@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E911C856EBF00514AC7 /* NSObject+Associate.m */; };
 		C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */; };
 		C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB41C7BFD35001927F8 /* HomePageController.m */; };
 		C7C26CB81C7BFD59001927F8 /* PartTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB71C7BFD59001927F8 /* PartTimeController.m */; };
@@ -36,6 +37,8 @@
 		355867340B599DBF80CAD44E /* libPods-ShopRefactor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopRefactor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE885E53F9A8C498133BF5 /* Pods-ShopRefactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopRefactor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopRefactor/Pods-ShopRefactor.release.xcconfig"; sourceTree = "<group>"; };
 		72712EE8896EF7874470693C /* Pods-ShopRefactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopRefactor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopRefactor/Pods-ShopRefactor.debug.xcconfig"; sourceTree = "<group>"; };
+		C7123E901C856EBF00514AC7 /* NSObject+Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Associate.h"; sourceTree = "<group>"; };
+		C7123E911C856EBF00514AC7 /* NSObject+Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associate.m"; sourceTree = "<group>"; };
 		C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNetCenter.h; sourceTree = "<group>"; };
 		C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNetCenter.m; sourceTree = "<group>"; };
 		C7C26CB31C7BFD35001927F8 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
@@ -309,6 +312,8 @@
 				C7C26CD21C7C0CD0001927F8 /* UIImage+COLOR.m */,
 				C7C26CD71C7C106D001927F8 /* BaseViewController.h */,
 				C7C26CD81C7C106D001927F8 /* BaseViewController.m */,
+				C7123E901C856EBF00514AC7 /* NSObject+Associate.h */,
+				C7123E911C856EBF00514AC7 /* NSObject+Associate.m */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				C7C26CDF1C7C51E3001927F8 /* CTXTools.m in Sources */,
 				C7C26CCA1C7BFF78001927F8 /* MainViewController.m in Sources */,
 				C7C26CBE1C7BFD82001927F8 /* OrderController.m in Sources */,
+				C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */,
 				C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */,
 				C7C26CD61C7C0EE0001927F8 /* TestVCViewController.m in Sources */,
 				C7FA64D51C7AFF400095ED3B /* ViewController.m in Sources */,

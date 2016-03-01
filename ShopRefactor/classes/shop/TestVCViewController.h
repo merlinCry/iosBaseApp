@@ -10,4 +10,8 @@
 
 @interface TestVCViewController : BaseViewController
 
+@property(strong,nonatomic)NSString *hello;
+
+-(void)fly;
+
 @end
