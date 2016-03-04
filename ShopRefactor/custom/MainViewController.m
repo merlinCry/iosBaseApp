@@ -42,8 +42,8 @@
 {
     [super viewDidAppear:animated];
     
-    ZTTabBar *tabbar = (ZTTabBar *)self.tabBar;
-    [tabbar setBage:@"" atIndex:2];
+//    ZTTabBar *tabbar = (ZTTabBar *)self.tabBar;
+//    [tabbar setBage:@"" atIndex:2];
 
 }
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController(track)
+@interface UIViewController(Hook)
 
 @end

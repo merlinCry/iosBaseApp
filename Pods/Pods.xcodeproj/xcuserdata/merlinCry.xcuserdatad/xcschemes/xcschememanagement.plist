@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PXAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ShopRefactor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +47,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4323FC81787216FE73AD0FCE306188D0</key>
+		<key>2DCF991DC06D7FDA65EB8132E6356361</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58DE8F762554BAD8E5422F955ECDB6E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>926F330DD9A45C35C4029FDA3A48E22F</key>
+		<key>8FAFB4246A19C7C657B7CD195788928C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0BD40865FC97CE23C0C463645377901</key>
+		<key>E421B7471C420C1C227C435C434E45A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E421B7471C420C1C227C435C434E45A9</key>
+		<key>FCADD371B1CAC4B411FED8E9D6EA535C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

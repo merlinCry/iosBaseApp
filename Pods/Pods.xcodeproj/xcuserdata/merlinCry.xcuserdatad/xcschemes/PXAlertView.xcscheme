@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '900D35A5569CC7FC872879A0'
-               BlueprintName = 'MJRefresh'
+               BlueprintIdentifier = 'DB168B931EE97F3050D8FD65'
+               BlueprintName = 'PXAlertView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMJRefresh.a'>
+               BuildableName = 'libPXAlertView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

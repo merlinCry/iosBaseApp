@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
 //    NSString *ipAddress = @"http://m.8dol.com/api/store/list";
 //    [ZTNetCenter GETJSON:ipAddress parameters:nil responseHandler:^(id  _Nullable responseObject, NSError * _Nullable error) {
@@ -34,26 +34,18 @@
     
 //    NSString *className = [NSString stringWithUTF8String:class_getName([self class])];
     
+    
 }
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [PXAlertView showAlertWithTitle:@"hhehealdjs;faghaosdflj"];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)fly
-{
-    NSLog(@"old------fly");
-}
-
-void newFly()
-{
-    NSLog(@"new------fly");
-}
-
-
--(void)testSel:(NSString *)str
-{
-    
 }
 
 @end

@@ -8,5 +8,5 @@ target 'ShopRefactor' do
   pod 'FMDB',          '~>2.6'
   pod 'JSONKit',       '~> 1.5pre'
   pod 'MJRefresh',     '~> 3.1.0'
-  
+  pod 'PXAlertView',   '~> 0.1.1'
 end
