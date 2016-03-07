@@ -40,7 +40,12 @@
 {
     [super viewDidAppear:animated];
     
-    [PXAlertView showAlertWithTitle:@"hhehealdjs;faghaosdflj"];
+    [PXAlertView showAlertWithTitle:@"111111111"];
+    
+    [PXAlertView showAlertWithTitle:@"222222222"];
+    [PXAlertView showAlertWithTitle:@"3333333333"];
+
+
 }
 
 - (void)didReceiveMemoryWarning {
