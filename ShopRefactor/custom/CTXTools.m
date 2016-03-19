@@ -98,5 +98,45 @@
 }
 
 
+#pragma mark Document
+
++(NSString *)homeDirectory
+{
+    return NSHomeDirectory();
+}
++(NSString *)documentDirectory
+{
+    return [[self homeDirectory] stringByAppendingPathComponent:@"Documents"];
+}
+
++(NSString *)tmpDirectory
+{
+    return [[self homeDirectory] stringByAppendingPathComponent:@"tmp"];
+}
+
++(BOOL)createDirectoryAtDocument:(NSString *)dire
+{
+    NSFileManager *manager = [NSFileManager defaultManager];
+    NSString *path = [[self documentDirectory] stringByAppendingPathComponent:dire];
+    
+    return  [manager createDirectoryAtPath:path withIntermediateDirectories:NO attributes:nil error:nil];
+}
+
++(BOOL)saveToDocment:(NSString *)fileName content:(NSData *)content
+{
+    NSFileManager *manager  = [NSFileManager defaultManager];
+
+    NSString *path = [[self documentDirectory] stringByAppendingPathComponent:fileName];
+    return [manager createFileAtPath:path contents:content attributes:nil];
+    
+}
+
++(BOOL)saveToTmp:(NSString *)fileName content:(NSData *)content
+{
+    NSFileManager *manager  = [NSFileManager defaultManager];
+    NSString *path = [[self tmpDirectory] stringByAppendingPathComponent:fileName];
+    return [manager createFileAtPath:path contents:content attributes:nil];
+    
+}
 
 @end

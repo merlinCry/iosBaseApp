@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E911C856EBF00514AC7 /* NSObject+Associate.m */; };
 		C7123E981C85A54C00514AC7 /* UIViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E971C85A54C00514AC7 /* UIViewController+Hook.m */; };
+		C79446E81C8D5AE6007575BE /* CTXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79446E71C8D5AE6007575BE /* CTXAlertView.m */; };
 		C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */; };
 		C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB41C7BFD35001927F8 /* HomePageController.m */; };
 		C7C26CB81C7BFD59001927F8 /* PartTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB71C7BFD59001927F8 /* PartTimeController.m */; };
@@ -42,6 +43,8 @@
 		C7123E911C856EBF00514AC7 /* NSObject+Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associate.m"; sourceTree = "<group>"; };
 		C7123E961C85A54C00514AC7 /* UIViewController+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hook.h"; sourceTree = "<group>"; };
 		C7123E971C85A54C00514AC7 /* UIViewController+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hook.m"; sourceTree = "<group>"; };
+		C79446E61C8D5AE6007575BE /* CTXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTXAlertView.h; sourceTree = "<group>"; };
+		C79446E71C8D5AE6007575BE /* CTXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTXAlertView.m; sourceTree = "<group>"; };
 		C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNetCenter.h; sourceTree = "<group>"; };
 		C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNetCenter.m; sourceTree = "<group>"; };
 		C7C26CB31C7BFD35001927F8 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 				C7C26CB41C7BFD35001927F8 /* HomePageController.m */,
 				C7C26CD41C7C0EE0001927F8 /* TestVCViewController.h */,
 				C7C26CD51C7C0EE0001927F8 /* TestVCViewController.m */,
+				C79446E61C8D5AE6007575BE /* CTXAlertView.h */,
+				C79446E71C8D5AE6007575BE /* CTXAlertView.m */,
 			);
 			name = homePage;
 			path = shop;
@@ -462,6 +467,7 @@
 				C7C26CE61C7C627C001927F8 /* LoginViewController.m in Sources */,
 				C7C26CE91C7C6407001927F8 /* GuidePageController.m in Sources */,
 				C7FA64D21C7AFF400095ED3B /* AppDelegate.m in Sources */,
+				C79446E81C8D5AE6007575BE /* CTXAlertView.m in Sources */,
 				C7C26CD31C7C0CD0001927F8 /* UIImage+COLOR.m in Sources */,
 				C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */,
 				C7FA64CF1C7AFF400095ED3B /* main.m in Sources */,

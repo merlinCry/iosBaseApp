@@ -30,5 +30,20 @@
 //FMDB存储
 
 
+//本地目录存储
++(NSString *)homeDirectory;
++(NSString *)documentDirectory;
++(NSString *)tmpDirectory;
+
++(BOOL)createDirectoryAtDocument:(NSString *)dire;
+
+
++(BOOL)saveToDocment:(NSString *)fileName content:(NSData *)content;
+
++(BOOL)saveToTmp:(NSString *)fileName content:(NSData *)content;
+
+
+
+
 
 @end

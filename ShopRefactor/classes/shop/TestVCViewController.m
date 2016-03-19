@@ -8,7 +8,7 @@
 
 #import "TestVCViewController.h"
 #import "AFNetWorking.h"
-#import "AFURLRequestSerialization.h"
+#import "CTXAlertView.h"
 #import <objc/message.h>
 
 @interface TestVCViewController ()
@@ -35,17 +35,20 @@
 //    NSString *className = [NSString stringWithUTF8String:class_getName([self class])];
     
     
+    [CTXTools saveToDocment:@"test1.png" content:UIImagePNGRepresentation([UIImage imageNamed:@"newsTipImage"])];
 }
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
-    [PXAlertView showAlertWithTitle:@"111111111"];
-    
-    [PXAlertView showAlertWithTitle:@"222222222"];
-    [PXAlertView showAlertWithTitle:@"3333333333"];
+//    
+//    [PXAlertView showAlertWithTitle:@"111111111"];
+//    
+//    [PXAlertView showAlertWithTitle:@"222222222"];
+//    [PXAlertView showAlertWithTitle:@"3333333333"];
 
+    
 
+    
 }
 
 - (void)didReceiveMemoryWarning {

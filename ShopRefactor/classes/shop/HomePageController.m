@@ -8,8 +8,11 @@
 
 #import "HomePageController.h"
 #import "TestVCViewController.h"
+#import "AppDelegate.h"
+#import "CTXAlertView.h"
 
 @interface HomePageController ()
+@property(nonatomic)UIWindow *alertWindow;
 
 @end
 
@@ -31,6 +34,8 @@
     TestVCViewController *newVC = [TestVCViewController new];
     newVC.title = @"二级VC";
     [self.navigationController pushViewController:newVC animated:YES];
+    
+
     
 }
 - (void)didReceiveMemoryWarning {
