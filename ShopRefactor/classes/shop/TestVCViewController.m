@@ -34,8 +34,22 @@
     
 //    NSString *className = [NSString stringWithUTF8String:class_getName([self class])];
     
+//    [CTXTools saveToNSUserDefaults:@"asdf" forKey:@"hehe"];
+//    
+//    
+//    [CTXTools saveToDocment:@"test1.png" content:UIImagePNGRepresentation([UIImage imageNamed:@"newsTipImage"])];
     
-    [CTXTools saveToDocment:@"test1.png" content:UIImagePNGRepresentation([UIImage imageNamed:@"newsTipImage"])];
+    
+//    UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 20, 20)];
+//    [self.view addSubview:img];
+//    NSData *data = [CTXTools readFromDocment:@"test1.png"];
+//    img.image = [[UIImage alloc]initWithData:data];
+    
+//    [CTXTools saveToTmp:@"test1.png" content:UIImagePNGRepresentation([UIImage imageNamed:@"newsTipImage"])];
+    
+    
+    
+    
 }
 -(void)viewDidAppear:(BOOL)animated
 {

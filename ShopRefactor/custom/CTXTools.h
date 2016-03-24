@@ -42,8 +42,9 @@
 
 +(BOOL)saveToTmp:(NSString *)fileName content:(NSData *)content;
 
++(NSData *)readFromDocment:(NSString *)fileName;
 
-
-
+//获取document下的非隐藏文件列表
++(NSArray *)listAllFilesInDocument;
 
 @end

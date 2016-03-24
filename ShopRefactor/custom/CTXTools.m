@@ -128,6 +128,17 @@
 
     NSString *path = [[self documentDirectory] stringByAppendingPathComponent:fileName];
     return [manager createFileAtPath:path contents:content attributes:nil];
+}
+
++(NSData *)readFromDocment:(NSString *)fileName
+{
+    NSFileManager *manager  = [NSFileManager defaultManager];
+    
+    NSString *path = [[self documentDirectory] stringByAppendingPathComponent:fileName];
+    if ([manager fileExistsAtPath:path]) {
+       return  [manager contentsAtPath:path];
+    }
+    return nil;
     
 }
 
@@ -137,6 +148,28 @@
     NSString *path = [[self tmpDirectory] stringByAppendingPathComponent:fileName];
     return [manager createFileAtPath:path contents:content attributes:nil];
     
+}
+
+
+
++(NSArray *)listAllFilesInDocument
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    NSURL *bundleURL  = [NSURL URLWithString:[self documentDirectory]];
+    NSArray *contents = [fileManager contentsOfDirectoryAtURL:bundleURL
+                                   includingPropertiesForKeys:@[]
+                                                      options:NSDirectoryEnumerationSkipsHiddenFiles
+                                                        error:nil];
+    
+//    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"pathExtension == 'png'"];
+//    for (NSURL *fileURL in [contents filteredArrayUsingPredicate:predicate]) {
+//        // 在目录中枚举 .png 文件
+//        
+//        NSLog(@"%@",[fileURL.absoluteString lastPathComponent]);
+//    }
+    
+    return contents;
 }
 
 @end
