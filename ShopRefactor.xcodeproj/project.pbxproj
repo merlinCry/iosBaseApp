@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E911C856EBF00514AC7 /* NSObject+Associate.m */; };
 		C7123E981C85A54C00514AC7 /* UIViewController+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = C7123E971C85A54C00514AC7 /* UIViewController+Hook.m */; };
+		C7238F9F1D2BAA280097EFC0 /* NDAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7238F9E1D2BAA280097EFC0 /* NDAuthManager.m */; };
 		C79446E81C8D5AE6007575BE /* CTXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79446E71C8D5AE6007575BE /* CTXAlertView.m */; };
 		C7B702181C7FF65B00CC40E2 /* ZTNetCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */; };
 		C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C26CB41C7BFD35001927F8 /* HomePageController.m */; };
@@ -43,6 +44,8 @@
 		C7123E911C856EBF00514AC7 /* NSObject+Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associate.m"; sourceTree = "<group>"; };
 		C7123E961C85A54C00514AC7 /* UIViewController+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hook.h"; sourceTree = "<group>"; };
 		C7123E971C85A54C00514AC7 /* UIViewController+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hook.m"; sourceTree = "<group>"; };
+		C7238F9D1D2BAA280097EFC0 /* NDAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAuthManager.h; sourceTree = "<group>"; };
+		C7238F9E1D2BAA280097EFC0 /* NDAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAuthManager.m; sourceTree = "<group>"; };
 		C79446E61C8D5AE6007575BE /* CTXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTXAlertView.h; sourceTree = "<group>"; };
 		C79446E71C8D5AE6007575BE /* CTXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTXAlertView.m; sourceTree = "<group>"; };
 		C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNetCenter.h; sourceTree = "<group>"; };
@@ -253,6 +256,8 @@
 				C7C26CE81C7C6407001927F8 /* GuidePageController.m */,
 				C7B702161C7FF65B00CC40E2 /* ZTNetCenter.h */,
 				C7B702171C7FF65B00CC40E2 /* ZTNetCenter.m */,
+				C7238F9D1D2BAA280097EFC0 /* NDAuthManager.h */,
+				C7238F9E1D2BAA280097EFC0 /* NDAuthManager.m */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -457,6 +462,7 @@
 				C7C26CC11C7BFD94001927F8 /* SettingController.m in Sources */,
 				C7C26CDF1C7C51E3001927F8 /* CTXTools.m in Sources */,
 				C7C26CCA1C7BFF78001927F8 /* MainViewController.m in Sources */,
+				C7238F9F1D2BAA280097EFC0 /* NDAuthManager.m in Sources */,
 				C7C26CBE1C7BFD82001927F8 /* OrderController.m in Sources */,
 				C7123E921C856EBF00514AC7 /* NSObject+Associate.m in Sources */,
 				C7C26CB51C7BFD35001927F8 /* HomePageController.m in Sources */,
@@ -565,7 +571,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = ShopRefactor/ShopRefactor.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"NDEBUG=1",
+					"SD_WEDP=1",
+				);
 				INFOPLIST_FILE = ShopRefactor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -580,7 +596,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = ShopRefactor/ShopRefactor.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"NDEBUG=1",
+					"SD_WEDP=1",
+				);
 				INFOPLIST_FILE = ShopRefactor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

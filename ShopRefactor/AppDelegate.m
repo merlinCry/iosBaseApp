@@ -35,7 +35,7 @@
     //jpush
     
     //加载主页
-//    [self initMain];
+    [self initMain];
     
 
 

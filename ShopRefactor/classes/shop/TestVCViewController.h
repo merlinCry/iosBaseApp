@@ -10,7 +10,6 @@
 
 @interface TestVCViewController : BaseViewController
 
-@property(strong,nonatomic)NSString *hello;
 
 
 @end

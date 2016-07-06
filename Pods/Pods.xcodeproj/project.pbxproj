@@ -179,6 +179,8 @@
 		C2201E34603B014192F0967473518496 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26992D3ABDE515D057624BAD1DA5C228 /* AFURLResponseSerialization.m */; };
 		C66A994F14BA080776BB3E2AD8CC55B4 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6394A7609BC803F826C2285ABF79F473 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C67F32FF951D1979EF0E6B4ADED5E8A8 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 28059978C51D7ADF5F35457316CA0D98 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71104E81D0D6A3D00FCBE43 /* UIImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = C71104E61D0D6A3D00FCBE43 /* UIImage+WebP.h */; };
+		C71104E91D0D6A3D00FCBE43 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = C71104E71D0D6A3D00FCBE43 /* UIImage+WebP.m */; };
 		C9F4D0E9D7A4F816031160F41A0699D5 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C0ADBBE3B444C2674FE8D8ED841654 /* video.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74313791EE66060BAFF74369005A8F81 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CB39692F25D8C19CE475FD514B6A6EB1 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE4830AABD6141F8691FE3BCEA3BFBF /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -485,6 +487,8 @@
 		C220639D1A83EF31D04C08C454E04C5D /* qr_finder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = qr_finder.c; path = zbar/decoder/qr_finder.c; sourceTree = "<group>"; };
 		C382B964CEB02799B13C0C0DC325BA0A /* ZBarSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZBarSDK.xcconfig; sourceTree = "<group>"; };
 		C68A29AD77F7B4ABD3C0589D955EFA1F /* databar.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = databar.c; path = zbar/decoder/databar.c; sourceTree = "<group>"; };
+		C71104E61D0D6A3D00FCBE43 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		C71104E71D0D6A3D00FCBE43 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
 		C8C0ADBBE3B444C2674FE8D8ED841654 /* video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = video.h; path = zbar/video.h; sourceTree = "<group>"; };
 		C97A8865A7987913D22A1959B2BD8A45 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		C9E9BD3C41E41A8AB18356AAEB4B9A58 /* ean.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ean.c; path = zbar/decoder/ean.c; sourceTree = "<group>"; };
@@ -888,6 +892,8 @@
 		53F231A54B762B04E0FB024B5EB6CC35 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C71104E61D0D6A3D00FCBE43 /* UIImage+WebP.h */,
+				C71104E71D0D6A3D00FCBE43 /* UIImage+WebP.m */,
 				985DDDF57DE26B8AF23DD5ED727FA857 /* NSData+ImageContentType.h */,
 				0D7778FCD960178C6A8E2083BF382E74 /* NSData+ImageContentType.m */,
 				B1B6E8C2ABD8DB633A132D3D1EC1D132 /* SDImageCache.h */,
@@ -1216,6 +1222,7 @@
 				830050886B18F54E17F117FD8EFC717B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				E212C2AA95E8F6EFB69A5F1455F291F8 /* UIButton+AFNetworking.h in Headers */,
 				C1B65C3D849FEE4FB5298A8135A765DA /* UIImage+AFNetworking.h in Headers */,
+				C71104E81D0D6A3D00FCBE43 /* UIImage+WebP.h in Headers */,
 				6EC97BDB3FC508526F9E388095A7DDCC /* UIImageView+AFNetworking.h in Headers */,
 				85FAB6F1D2FE0598BF2E61D7BB084B8D /* UIKit+AFNetworking.h in Headers */,
 				5D52DB6DF2E6C24CECB0015A9177A2E1 /* UIProgressView+AFNetworking.h in Headers */,
@@ -1602,6 +1609,7 @@
 				43098B12DF5546CB576986E68DBCAFCA /* AFNetworkReachabilityManager.m in Sources */,
 				311E5200832E4AE174A193851A2C6317 /* AFSecurityPolicy.m in Sources */,
 				8E82178CC9BD8BE3DBF2C10E33807AEB /* AFURLRequestSerialization.m in Sources */,
+				C71104E91D0D6A3D00FCBE43 /* UIImage+WebP.m in Sources */,
 				C2201E34603B014192F0967473518496 /* AFURLResponseSerialization.m in Sources */,
 				FCDDD3BC67EA205C87238A2A87D5C36C /* AFURLSessionManager.m in Sources */,
 				15460ABD372C937E2A07A2FCDF98C473 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -1719,6 +1727,18 @@
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/PXAlertView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1954,6 +1974,18 @@
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/PXAlertView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";

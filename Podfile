@@ -9,4 +9,5 @@ target 'ShopRefactor' do
   pod 'JSONKit',       '~> 1.5pre'
   pod 'MJRefresh',     '~> 3.1.0'
   pod 'PXAlertView',   '~> 0.1.1'
+#  pod 'SDWebImage/WebP'
 end

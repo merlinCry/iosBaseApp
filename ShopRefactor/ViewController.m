@@ -10,6 +10,8 @@
 #import "AFNetWorking.h"
 @interface ViewController ()
 
+
+
 @end
 
 @implementation ViewController
@@ -17,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
+    NSString *imgString = [[NSBundle mainBundle]pathForResource:@"leaves" ofType:@"webp"];
+    NSData *imgData     = [NSData dataWithContentsOfFile:imgString];
 }
 
 - (void)didReceiveMemoryWarning {

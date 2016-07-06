@@ -16,7 +16,6 @@
 @end
 
 @implementation TestVCViewController
-@dynamic hello;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,20 +46,11 @@
     
 //    [CTXTools saveToTmp:@"test1.png" content:UIImagePNGRepresentation([UIImage imageNamed:@"newsTipImage"])];
     
-    
-    
-    
 }
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-//    
-//    [PXAlertView showAlertWithTitle:@"111111111"];
-//    
-//    [PXAlertView showAlertWithTitle:@"222222222"];
-//    [PXAlertView showAlertWithTitle:@"3333333333"];
 
-    
 
     
 }
